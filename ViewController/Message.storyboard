@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="45Q-IE-IBX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--第二-->
+        <scene sceneID="w3a-AX-esk">
+            <objects>
+                <navigationController id="45Q-IE-IBX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="第二" image="tabbar_messages_normal" id="5Nd-ee-U4E"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rnb-m0-ESb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NYk-uE-aII" kind="relationship" relationship="rootViewController" id="8Sd-et-Uct"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GUL-uh-Oup" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-415" y="377"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6aY-yE-bWi">
+            <objects>
+                <viewController id="NYk-uE-aII" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cRt-VT-RIW"/>
+                        <viewControllerLayoutGuide type="bottom" id="wML-Hn-caF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Oj-Wo-4C0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dkd-3y-a4b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFa-5H-RLE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="358" y="377"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar_messages_normal" width="48" height="32"/>
+    </resources>
+</document>
